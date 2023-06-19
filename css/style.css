@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* UTILS */
+/** UTILS */
 
 .container {
     max-width: 1180px;
@@ -32,8 +32,9 @@
     justify-content: flex-end;
 }
 
-/* GENERICS */
+/** GENERICS */
 
+/* HEADER */
 header {
     background-color: lightblue;
     height: 100px;
@@ -69,4 +70,18 @@ li {
 
 .login {
     width: 15%;
+}
+
+/* MAIN */
+
+.banner-section {
+    height: 700px;
+    background-color: #00008B;
+}
+
+.banner-box {
+    width: 1000px;
+    height: 600px;
+    background-color: #EE82EE;
+    border: 1px dashed black;;
 }
