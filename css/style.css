@@ -50,6 +50,10 @@
     background-color: lightgray;
 }
 
+.bg-darkgray {
+    background-color: #23272A;
+}
+
 .large-col {
     width: 60%;
     height: 650px;
@@ -62,6 +66,26 @@
     height: 650px;
     background-color: pink;
     border: 1px dashed black;
+}
+
+.larger-col {
+    width: 70%;
+    height: 650px;
+    background-color: #20b2aa;
+    border: 1px dashed black;
+}
+
+.smaller-col {
+    width: 30%;
+    height: 650px;
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+
+.xsmall-col {
+    width: 25%;
+    height: 100%;
+    border: 1px dashed white;
 }
 
 /** GENERICS */
