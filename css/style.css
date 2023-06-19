@@ -24,12 +24,16 @@
     justify-content: center;
 }
 
+.justify-end {
+    justify-content: flex-end;
+}
+
 .align-center {
     align-items: center;
 }
 
-.justify-end {
-    justify-content: flex-end;
+.align-end {
+    align-items: flex-end;
 }
 
 .content-section {
@@ -152,4 +156,21 @@ li {
 
 footer > .content-section {
     padding-top: 10px;
+}
+
+.footer-end {
+    min-height: 100px;
+    border-top: 1px solid lightgray;
+}
+
+.footer-end > .content-box {
+    width: 100%;
+    height: 70px;
+    background-color: #7fffd4;
+}
+
+.footer-end-logo, .footer-end-btn {
+    background-color: pink;
+    padding: 5px;
+    border: 1px dashed black;
 }
