@@ -147,3 +147,9 @@ li {
     background-color: green;
     border: 1px dashed black;
 }
+
+/* FOOTER */
+
+footer > .content-section {
+    padding-top: 10px;
+}
