@@ -3,3 +3,70 @@
     margin: 0;
     padding: 0;
 }
+
+/* UTILS */
+
+.container {
+    max-width: 1180px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+/* GENERICS */
+
+header {
+    background-color: lightblue;
+    height: 100px;
+}
+
+.header-content {
+    width: 100%;
+    background-color: goldenrod;
+    border: 1px dashed black;
+}
+
+.header-content > * {
+    padding: 10px;
+}
+
+.logo {
+    width: 15%;
+}
+
+nav {
+    width: 70%;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 5px
+}
+
+.login {
+    width: 15%;
+}
