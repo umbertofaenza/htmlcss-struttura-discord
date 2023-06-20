@@ -16,23 +16,23 @@
     display: flex;
 }
 
-.justify-between {
+.flex.justify-between {
     justify-content: space-between;
 }
 
-.justify-center {
+.flex.justify-center {
     justify-content: center;
 }
 
-.justify-end {
+.flex.justify-end {
     justify-content: flex-end;
 }
 
-.align-center {
+.flex.align-center {
     align-items: center;
 }
 
-.align-end {
+.flex.align-end {
     align-items: flex-end;
 }
 
@@ -41,7 +41,7 @@
     padding: 50px 0;
 }
 
-.large-content-section {
+.tall-content-section {
     min-height: 1000px;
     padding: 50px 0;
 }
@@ -58,38 +58,38 @@
     background-color: #23272A;
 }
 
-.large-col {
-    width: 60%;
-    height: 650px;
-    background-color: #1E90FF;
-    border: 1px dashed black;
+.col-25 {
+    width: 25%;
+    height: 100%;
+    border: 1px dashed white;
 }
 
-.small-col {
-    width: 40%;
-    height: 650px;
-    background-color: pink;
-    border: 1px dashed black;
-}
-
-.larger-col {
-    width: 70%;
-    height: 650px;
-    background-color: #20b2aa;
-    border: 1px dashed black;
-}
-
-.smaller-col {
+.col-30 {
     width: 30%;
     height: 650px;
     background-color: #f08080;
     border: 1px dashed black;
 }
 
-.xsmall-col {
-    width: 25%;
-    height: 100%;
-    border: 1px dashed white;
+.col-40 {
+    width: 40%;
+    height: 650px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.col-60 {
+    width: 60%;
+    height: 650px;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.col-70 {
+    width: 70%;
+    height: 650px;
+    background-color: #20b2aa;
+    border: 1px dashed black;
 }
 
 /** GENERICS */
@@ -134,12 +134,12 @@ li {
 
 /* MAIN */
 
-.banner-section {
+.jumbotron-section {
     height: 700px;
     background-color: #00008B;
 }
 
-.banner-box {
+.jumbotron-box {
     width: 1000px;
     height: 600px;
     background-color: #EE82EE;
@@ -158,18 +158,18 @@ footer > .content-section {
     padding-top: 10px;
 }
 
-.footer-end {
+.footer-bottom {
     min-height: 100px;
     border-top: 1px solid lightgray;
 }
 
-.footer-end > .content-box {
+.footer-bottom > .content-box {
     width: 100%;
     height: 70px;
     background-color: #7fffd4;
 }
 
-.footer-end-logo, .footer-end-btn {
+.footer-bottom-logo, .footer-bottom-btn {
     background-color: pink;
     padding: 5px;
     border: 1px dashed black;
